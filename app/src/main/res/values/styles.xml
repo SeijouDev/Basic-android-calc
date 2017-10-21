@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0d9fbf</item>
+        <item name="colorPrimaryDark">#666</item>
+        <item name="colorAccent">#FFE93131</item>
+    </style>
+
+    <style name="calc_button">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">0.2dp</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="blue_button" parent="calc_button">
+        <item name="android:background">#0d9fbf</item>
+    </style>
+
+    <style name="red_button" parent="calc_button">
+        <item name="android:background">#FFE93131</item>
+    </style>
+
+    <style name="gray_button" parent="calc_button">
+        <item name="android:background">#666</item>
+    </style>
+
+</resources>
